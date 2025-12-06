@@ -2,20 +2,17 @@
 
 ## Abstract
 
-This project presents a practical implementation of a **Quantum Random Number Generator (QRNG)** using Qiskit (2024/2025).  
-By leveraging qubit superposition and measurement, the system produces randomness that exceeds the unpredictability of classical pseudorandom generators.  
-The generated bitstreams were analyzed using entropy, bit-balance tests, distribution analysis, and Von Neumann debiasing.  
-Results show that QRNG provides high-quality randomness suitable for cryptographic and scientific applications.
+    This project presents a practical implementation of a **Quantum Random Number Generator (QRNG)** using Qiskit (2024/2025). By leveraging qubit superposition and measurement, the system produces randomness that exceeds the unpredictability of classical pseudorandom generators. The generated bitstreams were analyzed using entropy, bit-balance tests, distribution analysis, and Von Neumann debiasing.  
+    Results show that QRNG provides high-quality randomness suitable for cryptographic and scientific applications.
 
 ---
 
 ## 1. Introduction
 
-Random number generation is central to modern computing, especially in cryptography, simulation, and secure communication.  
-Classical computers produce pseudorandom numbers using deterministic algorithms, which can be predictable and therefore vulnerable.
+    Random number generation is central to modern computing, especially in cryptography, simulation, and secure communication. Classical computers produce pseudorandom numbers using deterministic algorithms, which can be predictable and therefore vulnerable.
 
-Quantum Random Number Generators (QRNGs) use quantum mechanics—specifically **superposition and measurement**—to produce truly random outcomes.  
-This project implements such a generator using Qiskit, analyzes its statistical properties, and compares it with classical methods.
+    Quantum Random Number Generators (QRNGs) use quantum mechanics—specifically **superposition and measurement**—to produce truly random outcomes.  
+    This project implements such a generator using Qiskit, analyzes its statistical properties, and compares it with classical methods.
 
 ---
 
