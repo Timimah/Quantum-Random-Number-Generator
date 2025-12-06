@@ -8,7 +8,6 @@ By leveraging qubit superposition and measurement, the system produces randomnes
 The generated bitstreams were analyzed using entropy, bit-balance tests, distribution analysis, and Von Neumann debiasing. 
 Results show that QRNG provides high-quality randomness suitable for cryptographic and scientific applications.
 
----
 
 ## 1. Introduction
 
@@ -18,7 +17,6 @@ Quantum Random Number Generators (QRNGs) use quantum mechanics—specifically **
 
 This project implements such a generator using Qiskit, analyzes its statistical properties, and compares it with classical methods.
 
----
 
 ## 2. Background
 
@@ -26,9 +24,9 @@ This project implements such a generator using Qiskit, analyzes its statistical 
 
 A qubit initialized in \|0⟩ becomes a superposition when a Hadamard gate is applied:
 
-```
+$$
 $H|0\rangle = \frac{|0\rangle + |1\rangle}{\sqrt{2}}$
-```
+$$
 
 Measuring this superposition produces either 0 or 1 with equal probability.
 
@@ -48,7 +46,6 @@ The Von Neumann extractor removes bias by processing pairs of bits:
 
 This reduces bias while preserving true randomness.
 
----
 
 ## 3. Methodology
 
@@ -72,7 +69,6 @@ The project evaluates randomness using:
 - Comparison with classical RNGs  
 - Debiasing using the Von Neumann algorithm  
 
----
 
 ## 4. Results
 
@@ -92,7 +88,6 @@ The distribution of random integer outputs appeared uniform, signifying stable r
 
 The Von Neumann extractor reduced output size but yielded a more uniform and unbiased bitstream.
 
----
 
 ## 5. Discussion
 
@@ -100,7 +95,6 @@ Results demonstrate that Qiskit-based QRNG produces high-quality randomness even
 The system’s entropy compared favorably with Python’s classical `random` and cryptographically secure `secrets` generators.  
 Debiasing further improved uniformity, suggesting QRNG suitability for applications in security and scientific computation.
 
----
 
 ## 6. Conclusion
 
@@ -112,7 +106,6 @@ Future work could extend the project by:
 - Applying NIST randomness tests  
 - Integrating QRNG output into cryptographic protocols  
 
----
 
 ## 7. References
 
