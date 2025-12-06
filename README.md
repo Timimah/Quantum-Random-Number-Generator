@@ -2,7 +2,11 @@
 
 ## Abstract
 
-This project presents a practical implementation of a **Quantum Random Number Generator (QRNG)** using Qiskit (2024/2025). By leveraging qubit superposition and measurement, the system produces randomness that exceeds the unpredictability of classical pseudorandom generators. The generated bitstreams were analyzed using entropy, bit-balance tests, distribution analysis, and Von Neumann debiasing. Results show that QRNG provides high-quality randomness suitable for cryptographic and scientific applications.
+This project presents a practical implementation of a **Quantum Random Number Generator (QRNG)** using Qiskit (2024/2025).
+
+By leveraging qubit superposition and measurement, the system produces randomness that exceeds the unpredictability of classical pseudorandom generators.
+The generated bitstreams were analyzed using entropy, bit-balance tests, distribution analysis, and Von Neumann debiasing. 
+Results show that QRNG provides high-quality randomness suitable for cryptographic and scientific applications.
 
 ---
 
